@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sbi-general automation test]">
+  <listeners>
+    <listener class-name="sbi.utilities.reporting"/>
+  </listeners>
+  <test thread-count="5" name="sbi-general(failed)">
+    <classes>
+      <class name="sbi.testcases.tc01_logintest">
+        <methods>
+          <include name="tc01_login"/>
+          <include name="tc04_createagentoptions"/>
+          <include name="capturescreenshot"/>
+          <include name="tc06_savebasicdetails"/>
+          <include name="tc05_createagent"/>
+          <include name="tc02_enrollmenttab"/>
+          <include name="tc03_searchagent"/>
+          <include name="setup"/>
+          <include name="tc08_savepersonalinformation"/>
+          <include name="tc07_personalinformation"/>
+        </methods>
+      </class> <!-- sbi.testcases.tc01_logintest -->
+    </classes>
+  </test> <!-- sbi-general(failed) -->
+</suite> <!-- Failed suite [sbi-general automation test] -->

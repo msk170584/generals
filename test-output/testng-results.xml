@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sbi-general automation test" duration-ms="44531" started-at="2020-09-14T11:35:34 IST" finished-at="2020-09-14T11:36:19 IST">
+    <groups>
+    </groups>
+    <test name="sbi-general" duration-ms="44531" started-at="2020-09-14T11:35:34 IST" finished-at="2020-09-14T11:36:19 IST">
+      <class name="sbi.testcases.tc01_logintest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="setup" is-config="true" duration-ms="9394" started-at="2020-09-14T11:35:35 IST" finished-at="2020-09-14T11:35:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tc01_login()[pri:1, instance:sbi.testcases.tc01_logintest@60285225]" name="tc01_login" duration-ms="2222" started-at="2020-09-14T11:35:44 IST" finished-at="2020-09-14T11:35:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="2" started-at="2020-09-14T11:35:46 IST" finished-at="2020-09-14T11:35:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_login status=SUCCESS method=tc01_logintest.tc01_login()[pri:1, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc02_enrollmenttab()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc02_enrollmenttab" duration-ms="1355" started-at="2020-09-14T11:35:46 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc01_login" finished-at="2020-09-14T11:35:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_enrollmenttab -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="0" started-at="2020-09-14T11:35:48 IST" finished-at="2020-09-14T11:35:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_enrollmenttab status=SUCCESS method=tc01_logintest.tc02_enrollmenttab()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc03_searchagent()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc03_searchagent" duration-ms="5996" started-at="2020-09-14T11:35:48 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc02_enrollmenttab" finished-at="2020-09-14T11:35:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_searchagent -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="1" started-at="2020-09-14T11:35:54 IST" finished-at="2020-09-14T11:35:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_searchagent status=SUCCESS method=tc01_logintest.tc03_searchagent()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc04_createagentoptions()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc04_createagentoptions" duration-ms="3391" started-at="2020-09-14T11:35:54 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc03_searchagent" finished-at="2020-09-14T11:35:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_createagentoptions -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="1" started-at="2020-09-14T11:35:57 IST" finished-at="2020-09-14T11:35:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_createagentoptions status=SUCCESS method=tc01_logintest.tc04_createagentoptions()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc05_createagent()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc05_createagent" duration-ms="6394" started-at="2020-09-14T11:35:57 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc04_createagentoptions" finished-at="2020-09-14T11:36:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_createagent -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="1" started-at="2020-09-14T11:36:03 IST" finished-at="2020-09-14T11:36:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_createagent status=SUCCESS method=tc01_logintest.tc05_createagent()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc06_savebasicdetails()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc06_savebasicdetails" duration-ms="3725" started-at="2020-09-14T11:36:03 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc05_createagent" finished-at="2020-09-14T11:36:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_savebasicdetails -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="0" started-at="2020-09-14T11:36:07 IST" finished-at="2020-09-14T11:36:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_savebasicdetails status=SUCCESS method=tc01_logintest.tc06_savebasicdetails()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc07_personalinformation()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc07_personalinformation" duration-ms="2001" started-at="2020-09-14T11:36:07 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc06_savebasicdetails" finished-at="2020-09-14T11:36:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_personalinformation -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="1" started-at="2020-09-14T11:36:09 IST" finished-at="2020-09-14T11:36:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc07_personalinformation status=SUCCESS method=tc01_logintest.tc07_personalinformation()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+        <test-method status="PASS" signature="tc08_savepersonalinformation()[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="tc08_savepersonalinformation" duration-ms="9482" started-at="2020-09-14T11:36:09 IST" depends-on-methods="sbi.testcases.tc01_logintest.tc07_personalinformation" finished-at="2020-09-14T11:36:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_savepersonalinformation -->
+        <test-method status="PASS" signature="capturescreenshot(org.testng.ITestResult)[pri:0, instance:sbi.testcases.tc01_logintest@60285225]" name="capturescreenshot" is-config="true" duration-ms="0" started-at="2020-09-14T11:36:19 IST" finished-at="2020-09-14T11:36:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc08_savepersonalinformation status=SUCCESS method=tc01_logintest.tc08_savepersonalinformation()[pri:0, instance:sbi.testcases.tc01_logintest@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- capturescreenshot -->
+      </class> <!-- sbi.testcases.tc01_logintest -->
+    </test> <!-- sbi-general -->
+  </suite> <!-- sbi-general automation test -->
+</testng-results>

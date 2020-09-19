@@ -1,0 +1,85 @@
+# Created at 2020-09-14T10:34:56.838
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-09-14T10:35:31.814
+Unexpected IOException: 8,1,sbi.testcases.tc01_logintest,setup(sbi.testcases.tc01_logintest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.0.6'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: driver.version: InternetExplorerDriver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.0.6'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: driver.version: InternetExplorerDriver,tc01_logintest>basetestcase.setup:41 \00BB UnreachableBrowser Could not start a ne...,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.0.6'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: driver.version: InternetExplorerDriver\000ACaused by: java.lang.RuntimeException: NettyHttpHandler request execution error\000ACaused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:19180 after 60000 ms\000ACaused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:19180 after 60000 ms\000A
+
+
+# Created at 2020-09-14T10:35:31.881
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc01_login(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.907
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc01_login(sbi.testcases.tc01_logintest),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.0.6'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: driver.version: InternetExplorerDriver,null
+
+
+# Created at 2020-09-14T10:35:31.908
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,capturescreenshot(sbi.testcases.tc01_logintest),null,null,null
+
+
+# Created at 2020-09-14T10:35:31.912
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc02_enrollmenttab(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.913
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc02_enrollmenttab(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc02_enrollmenttab()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.914
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc03_searchagent(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.915
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc03_searchagent(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc03_searchagent()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.916
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc04_createagentoptions(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.917
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc04_createagentoptions(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc04_createagentoptions()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.918
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc05_createagent(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.919
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc05_createagent(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc05_createagent()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.920
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc06_savebasicdetails(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.920
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc06_savebasicdetails(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc06_savebasicdetails()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.921
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc07_personalinformation(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.922
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc07_personalinformation(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc07_personalinformation()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:31.923
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc08_savepersonalinformation(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:35:31.924
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc08_savepersonalinformation(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc08_savepersonalinformation()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:35:33.133
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

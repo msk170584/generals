@@ -1,0 +1,73 @@
+# Created at 2020-09-14T10:41:04.635
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created at 2020-09-14T10:41:07.448
+Unexpected IOException: 8,1,sbi.testcases.tc01_logintest,capturescreenshot(sbi.testcases.tc01_logintest),null,Unable to get browser\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.61.206'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 9\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.edgechromium: false\002C ie.edgepath: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://localhost:29632/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 01fef073-347a-48c6-968c-5bc0c980e0c1,null,Unable to get browser\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.61.206'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 9\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.edgechromium: false\002C ie.edgepath: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://localhost:29632/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 01fef073-347a-48c6-968c-5bc0c980e0c1,tc01_logintest>basetestcase.capturescreenshot:59 \00BB NoSuchWindow Unable to get ...,org.openqa.selenium.NoSuchWindowException: \000AUnable to get browser\000ABuild info: version: '4.0.0-alpha-6'\002C revision: '5f43a29cfc'\000ASystem info: host: 'VAISAGAN-PC'\002C ip: '192.168.61.206'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_77'\000ADriver info: org.openqa.selenium.ie.InternetExplorerDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: internet explorer\002C browserVersion: 9\002C javascriptEnabled: true\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C se:ieOptions: {browserAttachTimeout: 0\002C elementScrollBehavior: 0\002C enablePersistentHover: true\002C ie.browserCommandLineSwitches: \002C ie.edgechromium: false\002C ie.edgepath: \002C ie.ensureCleanSession: false\002C ie.fileUploadDialogTimeout: 3000\002C ie.forceCreateProcessApi: false\002C ignoreProtectedModeSettings: false\002C ignoreZoomSetting: false\002C initialBrowserUrl: http://localhost:29632/\002C nativeEvents: true\002C requireWindowFocus: false}\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 01fef073-347a-48c6-968c-5bc0c980e0c1\000A
+
+
+# Created at 2020-09-14T10:41:07.456
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc02_enrollmenttab(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.457
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc02_enrollmenttab(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc02_enrollmenttab()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.459
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc03_searchagent(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.460
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc03_searchagent(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc03_searchagent()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.461
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc04_createagentoptions(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.462
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc04_createagentoptions(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc04_createagentoptions()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.463
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc05_createagent(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.463
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc05_createagent(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc05_createagent()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.464
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc06_savebasicdetails(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.465
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc06_savebasicdetails(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc06_savebasicdetails()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.466
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc07_personalinformation(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.467
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc07_personalinformation(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc07_personalinformation()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:07.468
+Unexpected IOException: 5,1,sbi.testcases.tc01_logintest,tc08_savepersonalinformation(sbi.testcases.tc01_logintest),sbi.testcases.tc01_logintest,null,null
+
+
+# Created at 2020-09-14T10:41:07.469
+Unexpected IOException: 9,1,sbi.testcases.tc01_logintest,tc08_savepersonalinformation(sbi.testcases.tc01_logintest),null,Method tc01_logintest.tc08_savepersonalinformation()[pri:0\002C instance:sbi.testcases.tc01_logintest@6ebc05a6] depends on not successfully finished methods,null
+
+
+# Created at 2020-09-14T10:41:08.202
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

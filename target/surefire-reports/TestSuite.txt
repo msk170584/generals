@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 9.483 s <<< FAILURE! - in TestSuite
+tc03_searchagent(sbi.testcases.tc01_logintest)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/commons/lang3/RandomStringUtils
+	at sbi.testcases.tc01_logintest.tc03_searchagent(tc01_logintest.java:51)
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.lang3.RandomStringUtils
+	at sbi.testcases.tc01_logintest.tc03_searchagent(tc01_logintest.java:51)
+
